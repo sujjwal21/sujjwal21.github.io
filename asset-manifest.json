@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.243c5be6.css",
-    "main.js": "/static/js/main.10e04181.js",
+    "main.css": "/static/css/main.c6246144.css",
+    "main.js": "/static/js/main.ce180364.js",
+    "static/media/portfolio_26_gif.gif": "/static/media/portfolio_26_gif.23284fa980c6da2ed8bf.gif",
     "static/media/body_care_gif.gif": "/static/media/body_care_gif.7e6830ddae3d6b213c8f.gif",
     "static/media/I2J_gif.gif": "/static/media/I2J_gif.03059bfa54e76d54838b.gif",
     "static/media/pear_gif1.gif": "/static/media/pear_gif1.ca1e90c7107d760b7925.gif",
@@ -13,11 +14,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.243c5be6.css.map": "/static/css/main.243c5be6.css.map",
-    "main.10e04181.js.map": "/static/js/main.10e04181.js.map"
+    "main.c6246144.css.map": "/static/css/main.c6246144.css.map",
+    "main.ce180364.js.map": "/static/js/main.ce180364.js.map"
   },
   "entrypoints": [
-    "static/css/main.243c5be6.css",
-    "static/js/main.10e04181.js"
+    "static/css/main.c6246144.css",
+    "static/js/main.ce180364.js"
   ]
 }
