@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import GithubCalender from "./Components/Github/GithubCalender";
+import Home from "./Components/Home/Home";
+import Navbar from "./Components/Navbar/Navbar";
+import Projects from "./Components/Projects";
+import SocialLinks from "./Components/SocialLinks";
+import TechnicalSkills from "./Components/TechnicalSkills";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+     {/* <h1 className="text-4xl font-bold font-signature ">Ujjwal Singh</h1> */}
+     <Navbar/>
+      <Home/>
+     <SocialLinks/>
+     <About/>
+      <TechnicalSkills/>
+     <Projects/>
+     <GithubCalender/>
+     <Contact/> 
     </div>
   );
 }
