@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Projects from "./Components/Projects";
 import SocialLinks from "./Components/SocialLinks";
 import TechnicalSkills from "./Components/TechnicalSkills";
+import Top from "./Components/ToTop";
 
 
 function App() {
@@ -16,9 +17,11 @@ function App() {
      <SocialLinks/>
      <About/>
       <TechnicalSkills/>
+      <Top/>
      <Projects/>
      <GithubCalender/>
      <Contact/> 
+    
     </div>
   );
 }

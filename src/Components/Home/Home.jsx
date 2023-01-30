@@ -14,8 +14,8 @@ const Home = () => {
           style={{ marginTop: "50px" }}
           className="flex flex-col justify-center h-full "
         >
-          <h2 className="text-4xl  sm:text-7xl font-bold text-white my-12">
-            I'm the Full Stack
+          <h2 className="text-3xl  sm:text-5xl font-bold text-white my-12">
+            I'm <br/><span className=" text-blue-400 animate-none md:animate-pulse z-0 ">Ujjwal Singh</span><br/> Full Stack
             <Typewriter
               options={{
                 strings: ["Web Developer", "Web Developer"],
@@ -24,7 +24,7 @@ const Home = () => {
               }}
             />
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 pb-4 max-w-md">
           Analytical and detail-oriented aspiring Full Stack Developer.
             Capable of writing production-ready code using ReactJS, Redux, and
             CSS on the front end, NodeJS, and Express on the back end to build
@@ -43,11 +43,11 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div data-aos="zoom-in" data-aos-duration="2000">
           <img
             src={myImage}
             alt="My_profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-full "
           />
         </div>
       </div>

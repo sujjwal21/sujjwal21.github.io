@@ -2,6 +2,10 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { FcPhone } from "react-icons/fc";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import {GiOutbackHat} from "react-icons/gi"
 
 const Contact = () => {
   const form = useRef();
@@ -10,7 +14,7 @@ const Contact = () => {
       id: 1,
       child: (
         <>
-          <FaLinkedin size={30} />
+          <FaLinkedin color="rgb(10,102,194)" size={35} />
         </>
       ),
       href: "https://www.linkedin.com/in/ujjwal-singh-3209b0191/",
@@ -20,7 +24,7 @@ const Contact = () => {
       id: 2,
       child: (
         <>
-          <FaGithub size={30} />
+          <FaGithub color="gray" size={40} />
         </>
       ),
       href: "https://github.com/sujjwal21",
@@ -29,7 +33,7 @@ const Contact = () => {
       id: 3,
       child: (
         <>
-          <HiOutlineMail size={30} />
+          <HiOutlineMail color="#a70c0c" size={40} />
         </>
       ),
       href: "mailto:sujjwal85@gmail.com",
@@ -84,20 +88,22 @@ const Contact = () => {
         </div>
         {/* style={{border:"0px solid red",display:"flex",justifyContent:"center",alignItems:"center"}} */}
         <div className=" flex flex-row justify-center max-[800px]:flex-col gap-40">
-          <div data-aos="fade-right" data-aos-duration="2000" className="flex h-full w-1/2 max-[800px]:w-[90%] ">
+          <div  className="flex h-full w-1/2 max-[800px]:w-[90%] ">
             <div className="flex flex-col justify-center items-center" >
               <img
                 src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
                 alt="msg"
                 width={"90%"}
+                data-aos="fade-up-right"
+                data-aos-duration="2000"
               />
               <h5 className="text-2xl flex flex-col justify-center  py-9 text-gray-400 gap-y-1">
-              𝐔𝐣𝐣𝐰𝐚𝐥 𝐒𝐢𝐧𝐠𝐡
-                <br />
+              <span><GiOutbackHat style={{marginBottom:"-10px"}} className="hover:animate-bounce" size="30px"/> 𝐔𝐣𝐣𝐰𝐚𝐥 𝐒𝐢𝐧𝐠𝐡</span>
+                
                 (𝔽𝕦𝕝𝕝 𝕊𝕥𝕒𝕔𝕜 𝕎𝕖𝕓 𝔻𝕖𝕧𝕖𝕝𝕠𝕡𝕖𝕣)
                 
-                <span><b>Contact:</b> +91 6393169967 </span>
-                <span><b>Email:</b> sujjwal85@gmail.com</span>
+                <span className="flex gap-1"><FcPhone className="hover:animate-bounce" color="#01240e" size="30px" /><b>Contact:</b> +91 6393169967 </span>
+                <span className="flex gap-1"> <SiGmail  className="hover:animate-bounce" size="25px" color="#9b0808" /><b>Email:</b> sujjwal85@gmail.com</span>
               </h5>
               <h1 className=" text-3xl">ᖴｉ𝐍đ _ 𝓜𝔢 _ 𝓞ⓝ -</h1>
               <div className="flex justify-center align-middle ">
@@ -105,7 +111,7 @@ const Contact = () => {
                   <li
                     key={id}
                     className={
-                      "flex flex-col justify-center items-center w-20 h-14 px-4 " +
+                      "flex flex-col justify-center items-center w-20 h-14 px-4 hover:animate-bounce" +
                       " " +
                       style
                     }
@@ -149,7 +155,7 @@ const Contact = () => {
             <textarea
               name="message"
               placeholder="Enter your message"
-              rows="6"
+              rows="10"
               className="p-2 bg-transparent border-b-2  text-white focus:outline-none"
             ></textarea>
 

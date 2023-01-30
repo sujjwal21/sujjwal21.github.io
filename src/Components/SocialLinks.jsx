@@ -9,7 +9,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+          LinkedIn <FaLinkedin color="#063f77" size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/ujjwal-singh-3209b0191/",
@@ -19,7 +19,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          GitHub <FaGithub color="black" size={30} />
         </>
       ),
       href: "https://github.com/sujjwal21",
@@ -28,7 +28,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          Mail <HiOutlineMail color="#7b0606" size={30} />
         </>
       ),
       href: "mailto:sujjwal85@gmail.com",
@@ -37,7 +37,7 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Resume <BsFillPersonLinesFill color="#02461b" size={30} />
         </>
       ),
       href: "/Ujjwal-Singh-Resume.pdf",

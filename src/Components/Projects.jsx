@@ -5,6 +5,8 @@ import I2J from "../assets/portfolio/I2J_gif.gif"
 import Port from "../assets/portfolio/portfolio_26_gif.gif"
 import {VscGithub} from 'react-icons/vsc';
 import {FiExternalLink} from 'react-icons/fi';
+// import {SiCss3, SiHtml5, SiJavascript, SiReact, SiRedux ,SiChakraui} from "react-icons/si";
+// import {HiOutlineMailOpen} from "react-icons/hi"
 
 const Projects = () => {
   return (
@@ -106,6 +108,11 @@ const Projects = () => {
               <p>
                 React || Axios || React-Router-Dom || 
                 Chakra-UI || Render
+                {/* <div className='flex justify-center items-center gap-x-2 mt-5' data-aos="zoom-out">
+            <div><SiJavascript size="32px" color="yellow" className="hover:animate-bounce hover:cursor-pointer"/></div>||
+            <div><SiHtml5 size="32px" color="#e34c26" className="hover:animate-bounce hover:cursor-pointer"/></div>||
+            <div><SiCss3 size="32px" color="#264de4" className="hover:animate-bounce hover:cursor-pointer"/></div>||
+            </div> */}
               </p>
               <h1 className="text-2xl font-bold text-gray-400 py-2">
                 Features :

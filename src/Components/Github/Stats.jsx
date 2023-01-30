@@ -7,27 +7,19 @@ const Stats = () => {
                 <a href="https://github.com/sujjwal21">
                     <img 
                      src="https://github-readme-streak-stats.herokuapp.com?user=sujjwal21&theme=dark&border_radius=10" 
-                     alt=""
-                     
-                    //  height={"500px"}
+                     alt="github"
+                    // className=' hover:animate-spin'
                      />
                 </a>
             </div>
 
-            <div  className='flex flex-col items-center justify-between  md:flex-row gap-20 py-20'
-            // style={{
-            //     marginTop:"40px",
-            //     display:'flex',
-            //     width:"60%",
-            //     height:"300px",
-            //     justifyContent:"space-around",
-            //     alignItems:"center",
-            // }}
+            <div  className='flex flex-col items-center justify-center  md:flex-row gap-20 py-20'
+           
             >
                 <a href="https://github.com/sujjwal21" data-aos="flip-right" data-aos-duration="2500">
                     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujjwal21&langs_count=8&theme=dark"
                      alt="" 
-                     width={"345px"}
+                     width={"360px"}
                      />
                 </a>
                 <a href="https://github.com/sujjwal21" data-aos="flip-left" data-aos-duration="1500">
