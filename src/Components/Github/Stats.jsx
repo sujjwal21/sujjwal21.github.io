@@ -2,7 +2,7 @@ import React from 'react';
 // width:"100%" ,marginTop:"20px" ,marginLeft:"55%"
 const Stats = () => {
     return (
-        <div className=' w-auto flex flex-col items-center justify-between h-auto py-20 '>
+        <div className=' w-screen flex flex-col items-center justify-between h-auto py-20 '>
             <div style={{}} data-aos="flip-right"  data-aos-duration="2500">
                 <a href="https://github.com/sujjwal21">
                     <img 
@@ -13,7 +13,7 @@ const Stats = () => {
                 </a>
             </div>
 
-            <div  className='flex flex-col items-center justify-center  md:flex-row gap-20 py-20'
+            <div  className='flex flex-col items-center justify-center md:flex-row gap-20 py-20'
            
             >
                 <a href="https://github.com/sujjwal21" data-aos="flip-right" data-aos-duration="2500">
@@ -26,9 +26,7 @@ const Stats = () => {
                     <img src="https://github-readme-stats.vercel.app/api?username=sujjwal21&show_icons=true&count_private=true&theme=dark"
                      alt="" 
                      width={"600px"}
-                    //  height={"500px"}
-                     />
-                     
+                     />   
                 </a>
             </div>
         </div>

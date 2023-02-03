@@ -4,13 +4,13 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-screen h-auto bg-gradient-to-b from-gray-800 to-black text-white max-[800px]:w-[100%]"
+      className="w-screen h-auto bg-gradient-to-b to-[#0e0c49] via-[#0e0c49] from-[#3d3a81] text-white max-[800px]:w-[100%]"
     >
       <div
         className="p-4 max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full"
       >
         <div className="pb-20 ">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-white">
             About
           </p>
         </div>
@@ -19,7 +19,7 @@ const About = () => {
            data-aos="fade-right"
            data-aos-duration="2000"
            >
-            <p className=" text-xl text-gray-400cd  ">
+            <p className=" text-xl text-white  ">
               Hi, 𝑴𝒚𝒔𝒆𝒍𝒇 𝑼𝒋𝒋𝒘𝒂𝒍 𝑺𝒊𝒏𝒈𝒉 and I am a passionate Full Stack web
               developer. I live in Lucknow, India. I am constantly learning and
               striving to improve my skills to deliver the best solutions for my
@@ -28,7 +28,7 @@ const About = () => {
 
             <br />
 
-            <p className="text-xl text-gray-300">
+            <p className="text-xl text-white">
               Apart from coding, I'm also a movie enthusiast who watches to all
               genres of movies and a passionate traveler who loves to explore
               new places and learn about the people and culture of that places.<br /><br/>
@@ -40,13 +40,13 @@ const About = () => {
               to life.
             </p>
           </div>
-          <div className=" w-1/3 max-[800px]:w-full hover:animate-bounce"
+          <div className=" w-1/3 max-[800px]:w-full "
            data-aos="fade-left"
            data-aos-duration="2000">
             <img
               src="https://github.com/manojattri181/ManojAttri-Portfolio/blob/master/src/assets/working.gif?raw=true"
               alt="about"
-              
+              className="hover:scale-110 duration-1000"
             />
           </div>
         </div>

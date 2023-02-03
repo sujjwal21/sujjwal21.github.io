@@ -39,7 +39,7 @@ const TechinicalSkills = () => {
       title: "React",
       style: "shadow-blue-600",
       aos:"fade-left",
-      animation:"hover:animate-spin "
+      animation:"animate-spin hover:animate-bounce"
     },
     {
       id: 5,
@@ -63,7 +63,7 @@ const TechinicalSkills = () => {
       title: "Redux ",
       style: "shadow-purple-400",
       aos:"fade-right",
-      animation:"hover:animate-spin "
+      animation:"animate-spin hover:animate-bounce"
     },
     {
       id: 8,
@@ -127,7 +127,7 @@ const TechinicalSkills = () => {
       title: "GIT",
       style: "shadow-orange-400 ",
       aos:"fade-right",
-      animation:"hover:animate-bounce "
+      animation:"hover:animate-bounce  "
     }, {
       id: 16,
       src: "https://cdn.sanity.io/images/o0o2tn5x/production/13b9c8412093e2f0cdb5495e1f59144967fa1664-512x512.jpg",
@@ -150,18 +150,18 @@ const TechinicalSkills = () => {
       title: "Postman",
       style: "shadow-orange-400 ",
       aos:"fade-left",
-      animation:"hover:animate-bounce "
+      animation:"hover:animate-bounce  "
     },
   ];
 
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b to-gray-800 from-black w-screen h-auto py-8 max-[800px]:w-[100%]"
+      className="bg-gradient-to-b from-[#0e0c49] via-[#0e0c49] to-[#3d3a81] w-screen h-auto py-8 max-[800px]:w-[100%]"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-white p-2 inline">
             Technical Skills
           </p>
           <p className="py-6">These are the technologies I've worked with</p>

@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen max-[800px]:h-auto w-screen bg-gradient-to-b from-black via-black to-gray-800 py-10 pb-20"
+      className="h-screen max-[800px]:h-auto w-screen bg-gradient-to-b from-[#0e0c49] via-[#0e0c49] to-[#3d3a81] py-10 pb-20"
     >
       <div className="max-w-screen-lg mx-auto w-full flex flex-col items-center justify-center h-auto px-4 md:flex-row gap-20">
         <div
@@ -24,7 +24,7 @@ const Home = () => {
               }}
             />
           </h2>
-          <p className="text-gray-500 pb-4 max-w-md">
+          <p className=" text-white pb-4 max-w-md">
           Analytical and detail-oriented aspiring Full Stack Developer.
             Capable of writing production-ready code using ReactJS, Redux, and
             CSS on the front end, NodeJS, and Express on the back end to build
@@ -35,7 +35,7 @@ const Home = () => {
           <div>
             <a href={"/Ujjwal-Singh-Resume.pdf"} target="_blank" rel="noopener noreferrer" download 
             onClick={()=>window.open("/Ujjwal-Singh-Resume.pdf")}>
-              <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-gray-900  to-gray-800 cursor-pointer ">
+              <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[#0e0c49]  to-[#0e0a7a] cursor-pointer ">
                 Resume
                 <span className="group-hover:rotate-90 duration-1000 ml-3">
                   <FiArrowRightCircle size={20} className="ml-1" />
