@@ -33,7 +33,8 @@ const Home = () => {
           </p>
 
           <div>
-            <a href="/Ujjwal-Singh-Resume.pdf" download={true}>
+            <a href={"/Ujjwal-Singh-Resume.pdf"} target="_blank" rel="noopener noreferrer" download 
+            onClick={()=>window.open("/Ujjwal-Singh-Resume.pdf")}>
               <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-gray-900  to-gray-800 cursor-pointer ">
                 Resume
                 <span className="group-hover:rotate-90 duration-1000 ml-3">

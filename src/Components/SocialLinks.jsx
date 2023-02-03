@@ -42,6 +42,7 @@ const SocialLinks = () => {
       ),
       href: "/Ujjwal-Singh-Resume.pdf",
       style: "rounded-br-md",
+      download:"/Ujjwal-Singh-Resume.pdf"
       
     },
   ];
