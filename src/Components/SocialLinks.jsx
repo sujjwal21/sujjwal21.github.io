@@ -9,7 +9,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin color="#063f77" size={30} />
+          LinkedIn <FaLinkedin color="#020242" size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/ujjwal-singh-3209b0191/",
@@ -19,7 +19,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub color="black" size={30} />
+          GitHub <FaGithub color="#000003" size={30} />
         </>
       ),
       href: "https://github.com/sujjwal21",
@@ -28,7 +28,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail color="#7b0606" size={30} />
+          Mail <HiOutlineMail color="#4b0303" size={30} />
         </>
       ),
       href: "mailto:sujjwal85@gmail.com",
@@ -37,7 +37,7 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill color="#02461b" size={30} />
+          Resume <BsFillPersonLinesFill color="#043516" size={30} />
         </>
       ),
       href: "/Ujjwal-Singh-Resume.pdf",
@@ -48,7 +48,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed z-50"
+    <div className="hidden md:flex lg:flex flex-col top-[35%] left-0 fixed z-50"
     data-aos="fade-right" data-aos-duration="2500"
     >
       <ul>
@@ -56,7 +56,7 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gradient-to-r from-[#3e3ab4]  to-[#3d3c6d]" +
               " " +
               style
             }
@@ -65,7 +65,7 @@ const SocialLinks = () => {
               href={href}
               className="flex justify-between items-center w-full text-white"
               download={download}
-              // target="_blank"
+              target="_blank"
               rel="noreferrer"
             >
               {child}

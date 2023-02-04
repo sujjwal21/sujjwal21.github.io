@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FcPhone } from "react-icons/fc";
-import { FaMapMarkerAlt } from "react-icons/fa";
+// import { FaMapMarkerAlt } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import {GiOutbackHat} from "react-icons/gi"
 
@@ -24,7 +24,7 @@ const Contact = () => {
       id: 2,
       child: (
         <>
-          <FaGithub color="gray" size={40} />
+          <FaGithub color="black" size={40} />
         </>
       ),
       href: "https://github.com/sujjwal21",
@@ -33,7 +33,7 @@ const Contact = () => {
       id: 3,
       child: (
         <>
-          <HiOutlineMail color="#a70c0c" size={40} />
+          <HiOutlineMail color="#530707" size={40} />
         </>
       ),
       href: "mailto:sujjwal85@gmail.com",
@@ -75,14 +75,14 @@ const Contact = () => {
     <div
     
       name="contact"
-      className="w-screen h-auto bg-gradient-to-b to-black from-gray-800 text-white "
+      className="w-screen h-auto bg-gradient-to-b to-[#0e0c49] via-[#0e0c49] from-[#3d3a81] text-white "
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-white">
             Contact
           </p>
-          <p className="py-6 text-2xl text-gray-400">
+          <p className="py-6 text-2xl text-white">
             Submit the form below to get in touch with me
           </p>
         </div>
@@ -97,13 +97,13 @@ const Contact = () => {
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
               />
-              <h5 className="text-2xl flex flex-col justify-center  py-9 text-gray-400 gap-y-1">
+              <h5 className="text-2xl flex flex-col justify-center  py-9 text-white gap-y-1">
               <span><GiOutbackHat style={{marginBottom:"-10px"}} className="hover:animate-bounce" size="30px"/> 𝐔𝐣𝐣𝐰𝐚𝐥 𝐒𝐢𝐧𝐠𝐡</span>
                 
                 (𝔽𝕦𝕝𝕝 𝕊𝕥𝕒𝕔𝕜 𝕎𝕖𝕓 𝔻𝕖𝕧𝕖𝕝𝕠𝕡𝕖𝕣)
                 
                 <span className="flex gap-1"><FcPhone className="hover:animate-bounce" color="#01240e" size="30px" /><b>Contact:</b> +91 6393169967 </span>
-                <span className="flex gap-1"> <SiGmail  className="hover:animate-bounce" size="25px" color="#9b0808" /><b>Email:</b> sujjwal85@gmail.com</span>
+                <span className="flex gap-1"> <SiGmail  className="hover:animate-bounce" size="25px" color="#530707" /><b>Email:</b> sujjwal85@gmail.com</span>
               </h5>
               <h1 className=" text-3xl">ᖴｉ𝐍đ _ 𝓜𝔢 _ 𝓞ⓝ -</h1>
               <div className="flex justify-center align-middle ">
@@ -159,13 +159,13 @@ const Contact = () => {
               className="p-2 bg-transparent border-b-2  text-white focus:outline-none"
             ></textarea>
 
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button className="text-white bg-gradient-to-r from-[#0e0a76]  to-[#100d62]  px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Send
             </button>
           </form>
         </div>
       </div>
-      <span className=" text-3xl text-gray-500 flex justify-center items-center w-screen">Designed & Built by Ujjwal Singh, © 2023 All rights reserved</span>
+      <span className=" text-3xl text-white flex justify-center items-center w-screen pb-5">Designed & Built by Ujjwal Singh, © 2023 All rights reserved</span>
     </div>
     
   );
