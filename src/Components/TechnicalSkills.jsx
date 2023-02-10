@@ -38,7 +38,7 @@ const TechinicalSkills = () => {
       src: "https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg",
       title: "React",
       style: "shadow-blue-600",
-      aos:"fade-left",
+      aos:"fade-up",
       animation:"animate-spin hover:animate-bounce"
     },
     {
@@ -54,7 +54,7 @@ const TechinicalSkills = () => {
       src: nextjs,
       title: "Next JS",
       style: "shadow-white",
-      aos:"fade-left",
+      aos:"flip-right",
       animation:"hover:animate-bounce "
     },
     {
@@ -70,7 +70,7 @@ const TechinicalSkills = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
-      aos:"fade-left",
+      aos:"flip-right",
       animation:"hover:animate-bounce "
     },
     {
@@ -86,7 +86,7 @@ const TechinicalSkills = () => {
       src: "https://velvety-croquembouche-9aebc1.netlify.app/static/media/typescript.f66836b8.svg",
       title: "TypeScript",
       style: "shadow-blue-400 ",
-      aos:"fade-left",
+      aos:"flip-right",
       animation:"hover:animate-bounce "
     },
     {
@@ -102,7 +102,7 @@ const TechinicalSkills = () => {
       src: "https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg",
       title: "MongoDB",
       style: "shadow-green-500 ",
-      aos:"fade-left",
+      aos:"flip-right",
       animation:"hover:animate-bounce "
     },
     {
@@ -118,7 +118,7 @@ const TechinicalSkills = () => {
       src: "https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg",
       title: "Chakra UI",
       style: "shadow-blue-900 ",
-      aos:"fade-left",
+      aos:"flip-right",
       animation:"hover:animate-bounce "
     }, 
     {
@@ -133,7 +133,7 @@ const TechinicalSkills = () => {
       src: "https://cdn.sanity.io/images/o0o2tn5x/production/13b9c8412093e2f0cdb5495e1f59144967fa1664-512x512.jpg",
       title: "Cypress",
       style: "shadow-cyan-400 ",
-      aos:"fade-left",
+      aos:"flip-right",
       animation:"hover:animate-bounce "
     },
     {
@@ -149,7 +149,7 @@ const TechinicalSkills = () => {
       src: "https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8",
       title: "Postman",
       style: "shadow-orange-400 ",
-      aos:"fade-left",
+      aos:"flip-right",
       animation:"hover:animate-bounce  "
     },
   ];
@@ -171,7 +171,7 @@ const TechinicalSkills = () => {
           {techs.map(({ id, src, title, style ,aos,animation}) => (
             <div
             data-aos={`${aos}`}
-            data-aos-duration="1500"
+            data-aos-duration="2500"
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg  ${style}`}
             >

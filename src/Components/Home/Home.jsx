@@ -2,20 +2,24 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import myImage from "../../assets/myImage.png";
 import { FiArrowRightCircle } from "react-icons/fi";
+// import TsParticles from "../TsParticles/TsParticales";
 
 const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen max-[800px]:h-auto w-screen bg-gradient-to-b from-[#0e0c49] via-[#0e0c49] to-[#3d3a81] py-10 pb-20"
+      className="h-auto max-[800px]:h-auto w-screen  bg-gradient-to-b from-[#0e0c49] via-[#0e0c49] to-[#3d3a81] py-10 pb-20"
     >
+      {/* <TsParticles/> */}
       <div className="max-w-screen-lg mx-auto w-full flex flex-col items-center justify-center h-auto px-4 md:flex-row gap-20">
         <div
           style={{ marginTop: "50px" }}
           className="flex flex-col justify-center h-full "
+          data-aos="fade-right"
+           data-aos-duration="2000"
         >
           <h2 className="text-3xl  sm:text-5xl font-bold text-white my-12">
-            I'm <br/><span className=" text-blue-400 animate-none md:animate-pulse z-0 ">Ujjwal Singh</span><br/> Full Stack
+            I'm <br/><span className=" text-blue-500 animate-none md:animate-pulse z-0 ">Ujjwal Singh</span><br/> Full Stack
             <Typewriter
               options={{
                 strings: ["Web Developer", "Web Developer"],

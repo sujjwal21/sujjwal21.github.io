@@ -2,13 +2,13 @@ import React from 'react';
 // width:"100%" ,marginTop:"20px" ,marginLeft:"55%"
 const Stats = () => {
     return (
-        <div className=' w-screen flex flex-col items-center justify-between h-auto py-20 '>
+        <div className=' w-auto flex flex-col items-center justify-between h-auto py-20 '>
             <div style={{}} data-aos="flip-right"  data-aos-duration="2500">
                 <a href="https://github.com/sujjwal21">
                     <img 
                      src="https://github-readme-streak-stats.herokuapp.com?user=sujjwal21&theme=dark&border_radius=10" 
                      alt="github"
-                    // className=' hover:animate-spin'
+                    
                      />
                 </a>
             </div>

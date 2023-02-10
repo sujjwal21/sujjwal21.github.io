@@ -22,16 +22,16 @@ const GithubCalender = () => {
 // };
   return (
     <div name="gitHub"
-     className='w-screen  px-3 py-40 bg-gradient-to-b from-[#0e0c49] via-[#0e0c49] to-[#3d3a81] text-white'>
-      <div className='pb-20 ml-24 '>
-                    <p className='text-4xl font-bold inline border-b-4 border-white'>
+     className='w-screen h-auto p-4 pt-10 bg-gradient-to-b from-[#0e0c49] via-[#0e0c49] to-[#3d3a81] text-white'>
+      <div className='pb-10 ml-24 '>
+                    <p className='text-4xl font-bold inline border-b-4 border-white items-start'>
                         GitHub 
                     </p>
                 </div>
       <div data-aos="zoom-in"  data-aos-duration="2000">
       
       <GitHubCalendar username="sujjwal21" style={{margin:"auto"}} transformData={""}
-       blockSize={18}
+       blockSize={17}
         fontSize={20}
         blockMargin={7}
          >

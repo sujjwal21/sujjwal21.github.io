@@ -70,28 +70,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-<!-- <button id="downloadButton">Download</button>
-
-<script>
-document.getElementById("downloadButton").addEventListener("click", function() {
-  window.open("https://example.com/file.pdf", "_blank");
-  window.location.href = "https://example.com/file.pdf";
-});
-</script> -->
-
-import React from 'react';
-
-const DownloadButton = (props) => {
-  return (
-    <a 
-      href={props.downloadLink} 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      download
-    >
-      <button>Download</button>
-    </a>
-  );
-};
-
-export default DownloadButton;

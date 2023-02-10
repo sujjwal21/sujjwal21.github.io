@@ -9,19 +9,19 @@ import {FiExternalLink} from 'react-icons/fi';
 
 const Projects = () => {
   return (
-    <div
+    <div 
       name="projects"
-      className="bg-gradient-to-b to-[#0e0c49] via-[#1f1a78] from-[#3d3a81] w-screen text-whitemd:h-auto max-[800px]:w-screen"
+      className="bg-gradient-to-b to-[#0e0c49] via-[#1f1a78] from-[#3d3a81] w-screen text-white md:h-auto "
     >
-      <div className="max-w-screen-xl  mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="py-8">
-          <p className="text-4xl font-bold inline border-b-4 border-white">
+          <p className="text-4xl font-bold  inline border-b-4 border-white text-white ">
             Project
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
         {/* grid sm:grid-cols-2 md:grid-cols-3 gap-8 shadow-md shadow-gray-500  */}
-        <div className="flex flex-col gap-20 px-12 sm:px-0">
+        <div className="flex flex-col gap-20">
           
           <div className=" flex max-[850px]:flex-col w-full">
             <div className=" w-3/5 max-[850px]:w-[95%] h-auto pt-5" 
@@ -35,7 +35,7 @@ const Projects = () => {
               />
             </div>
             <div className=" w-2/5 max-[850px]:w-[85%] px-5 text-white max-[850px]:my-8"
-            data-aos="fade-left" data-aos-duration="2500" >
+            data-aos="fade-up" data-aos-duration="2500" >
               <h1 className="text-3xl font-bold text-white pb-2">
                 Peer.com
                 <hr />
@@ -93,7 +93,7 @@ const Projects = () => {
           <div className=" flex max-[850px]:flex-col-reverse w-full">
             <div className=" w-2/5 max-[850px]:w-[85%] px-5 text-white max-[850px]:my-8"
             data-aos="fade-right" data-aos-duration="2500" >
-              <h1 className="text-3xl font-bold text-gray-300 pb-2">
+              <h1 className="text-3xl font-bold text-white pb-2">
                 Body_care
                 <hr />
               </h1>
@@ -146,7 +146,7 @@ const Projects = () => {
               </div>
             </div>
             <div className=" w-3/5 max-[850px]:w-[95%] h-auto pt-5" 
-            data-aos="fade-left" data-aos-duration="2500" >
+            data-aos="fade-up" data-aos-duration="2500" >
               <img
                 src={body_care}
                 alt="pear"
@@ -169,8 +169,8 @@ const Projects = () => {
               />
             </div>
             <div className=" w-2/5 max-[850px]:w-[85%] px-5 text-white max-[850px]:my-8"
-            data-aos="fade-left" data-aos-duration="2500" >
-              <h1 className="text-3xl font-bold text-gray-300 pb-2">
+            data-aos="fade-up" data-aos-duration="2500" >
+              <h1 className="text-3xl font-bold text-white pb-2">
                 Inter to Job
                 <hr />
               </h1>
@@ -228,7 +228,7 @@ const Projects = () => {
            
            <div className=" w-2/5 max-[850px]:w-[85%] px-5 text-white max-[850px]:my-8"
            data-aos="fade-right" data-aos-duration="2500" >
-             <h1 className="text-3xl font-bold text-gray-300 pb-2">
+             <h1 className="text-3xl font-bold text-white pb-2">
                My Portfolio
                <hr />
              </h1>
@@ -275,7 +275,7 @@ const Projects = () => {
              </div>
            </div>
            <div className=" w-3/5 max-[850px]:w-[95%] h-auto pt-5" 
-           data-aos="fade-left" data-aos-duration="2500" >
+           data-aos="fade-up" data-aos-duration="2500" >
              <img
                src={Port}
                alt="pear"

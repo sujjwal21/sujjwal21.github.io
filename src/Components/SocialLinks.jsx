@@ -9,17 +9,17 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin color="#020242" size={30} />
+          <FaLinkedin color="#020242" size={30} /> 
         </>
       ),
-      href: "https://www.linkedin.com/in/ujjwal-singh-3209b0191/",
-      style: "rounded-tr-md",
+      href: "https://www.linkedin.com/in/ujjwal-s-3209b0191/",
+      style: "rounded-t-md",
     },
     {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub color="#000003" size={30} />
+           <FaGithub color="#000003" size={30} />
         </>
       ),
       href: "https://github.com/sujjwal21",
@@ -28,35 +28,36 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail color="#4b0303" size={30} />
+          <HiOutlineMail color="#4b0303" size={30} />
         </>
       ),
       href: "mailto:sujjwal85@gmail.com",
+      style: "rounded-b-md",
     },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill color="#043516" size={30} />
-        </>
-      ),
-      href: "/Ujjwal-Singh-Resume.pdf",
-      style: "rounded-br-md",
-      download:"/Ujjwal-Singh-Resume.pdf"
+    // {
+    //   id: 4,
+    //   child: (
+    //     <>
+    //       <BsFillPersonLinesFill color="#043516" size={30} />
+    //     </>
+    //   ),
+    //   href: "/Ujjwal-Singh-Resume.pdf",
+    //   style: "rounded-b-md",
+    //   download:"/Ujjwal-Singh-Resume.pdf"
       
-    },
+    // },
   ];
 
   return (
-    <div className="hidden md:flex lg:flex flex-col top-[35%] left-0 fixed z-50"
-    data-aos="fade-right" data-aos-duration="2500"
+    <div className="hidden md:flex lg:flex flex-col top-[60%] right-0 fixed z-50"
+    // data-aos="fade-right" data-aos-duration="2500"
     >
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gradient-to-r from-[#3e3ab4]  to-[#3d3c6d]" +
+              "flex justify-between items-center gap-10 h-14 px-4 mr-[20px] hover:scale-110  hover:rounded-md duration-1000 bg-gradient-to-r from-[#3e3ab4]  to-[#3d3c6d]" +
               " " +
               style
             }

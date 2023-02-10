@@ -17,7 +17,7 @@ const Contact = () => {
           <FaLinkedin color="rgb(10,102,194)" size={35} />
         </>
       ),
-      href: "https://www.linkedin.com/in/ujjwal-singh-3209b0191/",
+      href: "https://www.linkedin.com/in/ujjwal-s-3209b0191/",
       style: "rounded-tr-md rounded-tl-md ",
     },
     {
@@ -82,14 +82,12 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-white">
             Contact
           </p>
-          <p className="py-6 text-2xl text-white">
-            Submit the form below to get in touch with me
-          </p>
+          
         </div>
         {/* style={{border:"0px solid red",display:"flex",justifyContent:"center",alignItems:"center"}} */}
         <div className=" flex flex-row justify-center max-[800px]:flex-col gap-40">
-          <div  className="flex h-full w-1/2 max-[800px]:w-[90%] ">
-            <div className="flex flex-col justify-center items-center" >
+          <div  className="flex flex-col w-full m-auto md:w-1/2 max-[800px]:w-[95%]">
+            <div className="flex flex-col justify-center items-start" >
               <img
                 src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
                 alt="msg"
@@ -98,7 +96,7 @@ const Contact = () => {
                 data-aos-duration="2000"
               />
               <h5 className="text-2xl flex flex-col justify-center  py-9 text-white gap-y-1">
-              <span><GiOutbackHat style={{marginBottom:"-10px"}} className="hover:animate-bounce" size="30px"/> 𝐔𝐣𝐣𝐰𝐚𝐥 𝐒𝐢𝐧𝐠𝐡</span>
+              <span><GiOutbackHat style={{marginBottom:"-10px"}} className="hover:animate-bounce max-[850px]:animate-bounce" size="30px"/> 𝐔𝐣𝐣𝐰𝐚𝐥 𝐒𝐢𝐧𝐠𝐡</span>
                 
                 (𝔽𝕦𝕝𝕝 𝕊𝕥𝕒𝕔𝕜 𝕎𝕖𝕓 𝔻𝕖𝕧𝕖𝕝𝕠𝕡𝕖𝕣)
                 
@@ -133,11 +131,14 @@ const Contact = () => {
             </div>
           </div>
           <form
-          data-aos="fade-left" data-aos-duration="2000"
-            className=" flex flex-col w-full md:w-1/2 max-[800px]:w-[90%]"
+          data-aos="fade-up" data-aos-duration="2000"
+            className=" flex flex-col w-full m-auto md:w-1/2 max-[800px]:w-[95%]"
             ref={form}
             onSubmit={sendEmail}
           >
+            <p className="py-6 text-2xl text-white">
+            Submit the form below to get in touch with me
+          </p>
             <input
               type="text"
               name="name"
@@ -155,7 +156,7 @@ const Contact = () => {
             <textarea
               name="message"
               placeholder="Enter your message"
-              rows="10"
+              rows="6"
               className="p-2 bg-transparent border-b-2  text-white focus:outline-none"
             ></textarea>
 
