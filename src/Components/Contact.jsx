@@ -166,7 +166,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <span className=" text-3xl text-white flex justify-center items-center w-screen pb-5">Designed & Built by Ujjwal Singh, © 2023 All rights reserved</span>
+      {/* <span className=" text-2xl text-white flex justify-center items-center w-screen pb-5">Designed & Built by 𝔘𝔧𝔧𝔴𝔞𝔩 𝔖𝔦𝔫𝔤𝔥, © 2023 All rights reserved</span> */}
     </div>
     
   );

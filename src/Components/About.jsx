@@ -21,7 +21,7 @@ const About = () => {
            >
             <p className="text-white  ">
               Hi, 𝑴𝒚𝒔𝒆𝒍𝒇 𝑼𝒋𝒋𝒘𝒂𝒍 𝑺𝒊𝒏𝒈𝒉 and I am a passionate Full Stack web
-              developer. I live in Lucknow, India. <span >I joined a coding boot camp and got hands-on experience on front-end and back-end tech stacks. And along with it, I got <b className=" text-blue-400 animate-none md:animate-pulse z-0"> 1200+ hours of coding experience,12000+ lines of code,100+ hours of soft skill training,300+ DSA Problems, and did 5+ Projects</b> including individual and collaborative.</span> 
+              developer. I live in Lucknow, India. <span >I joined a coding boot camp and got hands-on experience on front-end and back-end tech stacks. And along with it,  <b className=" text-blue-400 animate-none md:animate-pulse z-0">I got 1200+ hours of coding experience, wrote 12000+ lines of code, 100+ hours of soft skill training, 300+ DSA Problems, and did 5+ Projects</b> including individual and collaborative.</span> 
                I am constantly learning and
               striving to improve my skills to deliver the best solutions for my
               clients, with a strong foundation in front-end development.
