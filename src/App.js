@@ -1,4 +1,5 @@
 import About from "./Components/About";
+import Backend from "./Components/Backend";
 import Contact from "./Components/Contact";
 import GithubCalender from "./Components/Github/GithubCalender";
 import Home from "./Components/Home/Home";
@@ -8,6 +9,7 @@ import SocialLinks from "./Components/SocialLinks";
 import useStart from "./Components/Start/Start";
 import StartingIndicater from "./Components/Start/StartingIndicater";
 import TechnicalSkills from "./Components/TechnicalSkills";
+import ToolsSection from "./Components/Tools";
 import Top from "./Components/ToTop";
 
 
@@ -21,6 +23,8 @@ function App() {
      <SocialLinks/>
      <About/>
       <TechnicalSkills/>
+      <Backend/>
+      <ToolsSection/>
       <Top/>
      <Projects/>
      <GithubCalender/>

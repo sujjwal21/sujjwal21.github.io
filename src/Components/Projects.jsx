@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div 
       name="projects"
-      className="bg-gradient-to-b to-[#0e0c49] via-[#1f1a78] from-[#3d3a81] w-screen text-white md:h-auto "
+      className="bg-gradient-to-b to-[#0e0c49] via-[#171274] from-[#3d3a81] w-screen text-white md:h-auto "
     >
       <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="py-8">

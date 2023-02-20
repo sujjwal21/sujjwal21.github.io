@@ -11,10 +11,10 @@ const TsParticles = () => {
                     value: "#0d47a1",
                 },
             },
-            fullScreen:{
-                enable:false
-
-            },
+            fullScreen: {
+                enable: true,
+                zIndex: -10,
+              },
             // fpsLimit: 120,
             interactivity: {
                 events: {

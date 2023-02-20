@@ -2,7 +2,6 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import myImage from "../../assets/myImage.png";
 import { FiArrowRightCircle } from "react-icons/fi";
-// import TsParticles from "../TsParticles/TsParticales";
 
 const Home = () => {
   return (
