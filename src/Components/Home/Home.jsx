@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+// import resume from "/"
 import myImage from "../../assets/myImage.png";
 import { FiArrowRightCircle } from "react-icons/fi";
 
@@ -9,7 +10,6 @@ const Home = () => {
       name="home"
       className="h-auto max-[800px]:h-auto w-screen  bg-gradient-to-b from-[#0e0c49] via-[#0e0c49] to-[#3d3a81] py-10 pb-20"
     >
-      {/* <TsParticles/> */}
       <div className="max-w-screen-lg mx-auto w-full flex flex-col items-center justify-center h-auto px-4 md:flex-row gap-20">
         <div
           style={{ marginTop: "50px" }}
