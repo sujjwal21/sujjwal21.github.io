@@ -3,6 +3,7 @@ import pear from "../assets/portfolio/pear_gif1 (1).gif";
 import body_care from "../assets/portfolio/body_care_gif (2).gif"
 import I2J from "../assets/portfolio/I2J_gif (2).gif"
 import Port from "../assets/portfolio/portfolio_26_gif (1).gif"
+import Trendy from "../assets/portfolio/Trends1.gif"
 import {VscGithub} from 'react-icons/vsc';
 import {FiExternalLink} from 'react-icons/fi';
 
@@ -22,7 +23,75 @@ const Projects = () => {
         </div>
         {/* grid sm:grid-cols-2 md:grid-cols-3 gap-8 shadow-md shadow-gray-500  */}
         <div className="flex flex-col gap-20">
-          
+          {/* ====================================================== */}
+          <div className=" flex max-[850px]:flex-col w-full">
+          <div className=" w-2/5 max-[850px]:w-[85%] px-5 text-white max-[850px]:my-8"
+            data-aos="fade-up" data-aos-duration="2500" >
+              <h1 className="text-3xl font-bold text-white pb-2">
+                Trendy Mart
+                <hr />
+              </h1>
+              <p> Trendy Mart is built with the reference website Bloomingdale's.</p>
+              <h1 className="text-2xl font-bold text-white py-2">
+                Tech Stack :
+              </h1>
+              <p>
+                React || Redux || Axios || React-Router-Dom || Stripe ||
+                Chakra-UI || Node || Express || MongoDB || Cyclic || Vercel
+              </p>
+              <h1 className="text-2xl font-bold text-white py-2">
+                Features :
+              </h1>
+              <p>
+                Login/Signup || Stripe Payment  || Admin Section || Cart
+                || Place Order || Product Page with Filter || Own Backend
+              </p>
+              <h1 className="text-2xl font-bold text-white py-2">
+                Area of responsibility :
+              </h1>
+              <p>
+                Product Page || Navbar Search Functionality || Filter Functionality
+              </p>
+              <p className=" font-bold">
+                A collaborative project built by a team of 5 Full stack web
+                developers executed in 5 days.
+              </p>
+
+              <div className="flex gap-10 max-[500px]:flex-col max-[500px]:gap-1">
+                <a
+                  href="https://github.com/sujjwal21/Trendy-Mart?organization=sujjwal21&organization=sujjwal21"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className=" group duration-200 hover:scale-105 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[#0e0c49]  to-[#0e0a7a] cursor-pointer gap-3 ">
+                    GitHub <VscGithub size={"25px"} />
+                  </button>
+                </a>
+                <a
+                  href="https://trendy-mart.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className=" group duration-200 hover:scale-105 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[#0e0c49]  to-[#0e0a7a] cursor-pointer gap-3">
+                    Deployed <FiExternalLink size={"22px"}/>
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div className=" w-3/5 max-[850px]:w-[95%] h-auto pt-5" 
+            data-aos="fade-right" data-aos-duration="2500" >
+              <img
+                src={Trendy}
+                alt="Trendy_Mart"
+                width={"100%"}
+                height="100vh"
+                
+              />
+            </div>
+            
+          </div>
+
+          {/* ================================================================================ */}
           <div className=" flex max-[850px]:flex-col w-full">
             <div className=" w-3/5 max-[850px]:w-[95%] h-auto pt-5" 
             data-aos="fade-right" data-aos-duration="2500" >
