@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ba853b7.css",
-    "main.js": "/static/js/main.05e76e34.js",
-    "static/media/Trends1.gif": "/static/media/Trends1.29204a648ecb0c26ff27.gif",
+    "main.css": "/static/css/main.d812b8d1.css",
+    "main.js": "/static/js/main.2b4e12cd.js",
+    "static/media/Trends (1).gif": "/static/media/Trends (1).89971895fa64ca619363.gif",
     "static/media/portfolio_26_gif (1).gif": "/static/media/portfolio_26_gif (1).4b20f71ea6587fef3c9a.gif",
     "static/media/body_care_gif (2).gif": "/static/media/body_care_gif (2).b80dfaa339f1bd178ea6.gif",
     "static/media/I2J_gif (2).gif": "/static/media/I2J_gif (2).387e2e317a8ea3f2528c.gif",
@@ -14,11 +14,11 @@
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "index.html": "/index.html",
-    "main.5ba853b7.css.map": "/static/css/main.5ba853b7.css.map",
-    "main.05e76e34.js.map": "/static/js/main.05e76e34.js.map"
+    "main.d812b8d1.css.map": "/static/css/main.d812b8d1.css.map",
+    "main.2b4e12cd.js.map": "/static/js/main.2b4e12cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ba853b7.css",
-    "static/js/main.05e76e34.js"
+    "static/css/main.d812b8d1.css",
+    "static/js/main.2b4e12cd.js"
   ]
 }
