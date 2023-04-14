@@ -3,7 +3,7 @@ import pear from "../assets/portfolio/pear_gif1 (1).gif";
 import body_care from "../assets/portfolio/body_care_gif (2).gif"
 import I2J from "../assets/portfolio/I2J_gif (2).gif"
 import Port from "../assets/portfolio/portfolio_26_gif (1).gif"
-import Trendy from "../assets/portfolio/Trends1.gif"
+import Trendy from "../assets/portfolio/Trends (1).gif"
 import {VscGithub} from 'react-icons/vsc';
 import {FiExternalLink} from 'react-icons/fi';
 
@@ -44,13 +44,13 @@ const Projects = () => {
               </h1>
               <p>
                 Login/Signup || Stripe Payment  || Admin Section || Cart
-                || Place Order || Product Page with Filter || Own Backend
+                || Checkout Order || Product Page with Filter || Own Backend
               </p>
-              <h1 className="text-2xl font-bold text-white py-2">
+              <h1 className="text-2xl font-bold py-2 animate-none md:animate-pulse z-0">
                 Area of responsibility :
               </h1>
-              <p>
-                Product Page || Navbar Search Functionality || Filter Functionality
+              <p className=" text-blue-500 font-bold" >
+                Product Page || Navbar Search Bar Functionality || Filter Functionality
               </p>
               <p className=" font-bold">
                 A collaborative project built by a team of 5 Full stack web
@@ -106,7 +106,7 @@ const Projects = () => {
             <div className=" w-2/5 max-[850px]:w-[85%] px-5 text-white max-[850px]:my-8"
             data-aos="fade-up" data-aos-duration="2500" >
               <h1 className="text-3xl font-bold text-white pb-2">
-                Peer.com
+                Pear.com
                 <hr />
               </h1>
               <p>Pear is built with the reference website apple.com.</p>
@@ -124,10 +124,10 @@ const Projects = () => {
                 Login/Signup || Google Authentication || Admin Section || Cart
                 || Place Order
               </p>
-              <h1 className="text-2xl font-bold text-white py-2">
+              <h1 className="text-2xl font-bold text-white py-2 animate-none md:animate-pulse z-0">
                 Area of responsibility :
               </h1>
-              <p>
+              <p className="text-blue-500 font-bold">
                 Mac and Watch Page || Single Product Page || Cart Page ||
                 Checkout Page
               </p>
@@ -147,7 +147,7 @@ const Projects = () => {
                   </button>
                 </a>
                 <a
-                  href="https://pear-website.netlify.app/"
+                  href="https://pear-website.netlify.app"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -204,7 +204,7 @@ const Projects = () => {
                   </button>
                 </a>
                 <a
-                  href="https://body-care-sujjwal21.vercel.app/"
+                  href="https://body-care-sujjwal21.vercel.app"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -231,7 +231,7 @@ const Projects = () => {
             data-aos="fade-right" data-aos-duration="2500" >
               <img
                 src={I2J}
-                alt="pear"
+                alt="I@J"
                 width={"100%"}
                 height="100vh"
                 
@@ -240,10 +240,10 @@ const Projects = () => {
             <div className=" w-2/5 max-[850px]:w-[85%] px-5 text-white max-[850px]:my-8"
             data-aos="fade-up" data-aos-duration="2500" >
               <h1 className="text-3xl font-bold text-white pb-2">
-                Inter to Job
+                Intern to Job
                 <hr />
               </h1>
-              <p>Inter t0 Job is built with the reference website Inter Theory. </p>
+              <p>Intern t0 Job is built with the reference website Inter Theory. </p>
               <h1 className="text-2xl font-bold text-white py-2">
                 Tech Stack :
               </h1>
@@ -257,10 +257,10 @@ const Projects = () => {
                 Login/Signup || Contact Us  || Search Functionality || Filter Functionality
                 ||Hamburger Navbar
               </p>
-              <h1 className="text-2xl font-bold text-white py-2">
+              <h1 className="text-2xl font-bold text-white py-2 animate-none md:animate-pulse z-0">
                 Area of responsibility :
               </h1>
-              <p>
+              <p className="text-blue-500 font-bold">
               Online Courses || Post Internship || Contact Us ||
               Refund & Cancellation Policy
 
@@ -281,7 +281,7 @@ const Projects = () => {
                   </button>
                 </a>
                 <a
-                  href="https://cloudy-thing-7898.vercel.app/"
+                  href="https://cloudy-thing-7898-sujjwal21.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -293,7 +293,7 @@ const Projects = () => {
             </div>
           </div>
           {/* ===================================================================== */}
-          <div className=" flex max-[850px]:flex-col-reverse w-full">
+          {/* <div className=" flex max-[850px]:flex-col-reverse w-full">
            
            <div className=" w-2/5 max-[850px]:w-[85%] px-5 text-white max-[850px]:my-8"
            data-aos="fade-right" data-aos-duration="2500" >
@@ -353,7 +353,7 @@ const Projects = () => {
                
              />
            </div>
-         </div>
+         </div> */}
          {/* ========================================================================== */}
         </div>
       </div>

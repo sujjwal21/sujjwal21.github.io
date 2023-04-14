@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { FcPhone } from "react-icons/fc";
+import { GiSmartphone } from "react-icons/gi";
 // import { FaMapMarkerAlt } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import {GiOutbackHat} from "react-icons/gi"
@@ -100,7 +100,7 @@ const Contact = () => {
                 
                 (𝔽𝕦𝕝𝕝 𝕊𝕥𝕒𝕔𝕜 𝕎𝕖𝕓 𝔻𝕖𝕧𝕖𝕝𝕠𝕡𝕖𝕣)
                 
-                <span className="flex gap-1"><FcPhone className="hover:animate-bounce" color="#01240e" size="30px" /><b>Contact:</b> +91 6393169967 </span>
+                <span className="flex gap-1"> <GiSmartphone className="hover:animate-bounce" size="30px" color="#03f20f" /><b>Contact:</b> +91 6393169967 </span>
                 <span className="flex gap-1"> <SiGmail  className="hover:animate-bounce" size="25px" color="#530707" /><b>Email:</b> sujjwal85@gmail.com</span>
               </h5>
               <h1 className=" text-3xl">ᖴｉ𝐍đ _ 𝓜𝔢 _ 𝓞ⓝ -</h1>

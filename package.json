@@ -20,6 +20,7 @@
     "react-scroll": "^1.8.9",
     "react-tooltip": "^4.5.1",
     "typewriter-effect": "^2.19.0",
+    "vercel": "^28.16.15",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

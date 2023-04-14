@@ -9,39 +9,41 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          <FaLinkedin color="#020242" size={30} /> 
+          L <FaLinkedin color="#ffffff" size={30} /> 
         </>
       ),
       href: "https://www.linkedin.com/in/ujjwal-s-3209b0191/",
-      style: "rounded-t-md",
+      style: "bg-[#0077b5]",
     },
     {
       id: 2,
       child: (
         <>
-           <FaGithub color="#000003" size={30} />
+          G <FaGithub color="#ffffff" size={30} />
         </>
       ),
       href: "https://github.com/sujjwal21",
+      style:'bg-[#070707]'
     },
     {
       id: 3,
       child: (
         <>
-           <BsWhatsapp color="#1ad509" size={30} />
+           W <BsWhatsapp color="#ffffff" size={30} />
         </>
       ),
       href: "https://wa.me/+916393169967",
+      style:'bg-[#028600]'
     },
     {
       id: 4,
       child: (
         <>
-          <HiOutlineMail color="#4b0303" size={30} />
+          G <HiOutlineMail color="#ffffff" size={30} />
         </>
       ),
       href: "mailto:sujjwal85@gmail.com",
-      style: "rounded-b-md",
+      style: "bg-[#af0f08]",
     },
     // {
     //   id: 4,
@@ -58,32 +60,56 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden md:flex lg:flex flex-col top-[60%] right-0 fixed z-50"
-    // data-aos="fade-right" data-aos-duration="2500"
-    >
-      <ul>
-        {links.map(({ id, child, href, style, download }) => (
-          <li
-            key={id}
-            className={
-              "flex justify-between items-center gap-10 h-14 px-4 mr-[20px] hover:scale-110  hover:rounded-md duration-1000 bg-gradient-to-r from-[#3e3ab4]  to-[#3d3c6d]" +
-              " " +
-              style
-            }
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <ul>
+      {links.map(({ id, child, href, style, download }) => (
+        <li
+          key={id}
+          className={
+            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-70px]  duration-300  border" +
+            " " +
+            style
+          }
+        >
+          <a
+            href={href}
+            className="flex justify-between items-center w-full text-white font-bold"
+            download={download}
+            target="_blank"
+            rel="noreferrer"
           >
-            <a
-              href={href}
-              className="flex justify-between items-center w-full text-white"
-              download={download}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {child}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
+            {child}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+    // <div className="hidden md:flex lg:flex flex-col top-[60%] right-0 fixed z-50"
+    // // data-aos="fade-right" data-aos-duration="2500"
+    // >
+    //   <ul>
+    //     {links.map(({ id, child, href, style, download }) => (
+    //       <li
+    //         key={id}
+    //         className={
+    //           "flex justify-between items-center gap-10 h-14 px-4 mr-[20px] hover:scale-110  hover:rounded-md duration-1000 bg-gradient-to-r from-[#3e3ab4]  to-[#3d3c6d]" +
+    //           " " +
+    //           style
+    //         }
+    //       >
+    //         <a
+    //           href={href}
+    //           className="flex justify-between items-center w-full text-white"
+    //           download={download}
+    //           target="_blank"
+    //           rel="noreferrer"
+    //         >
+    //           {child}
+    //         </a>
+    //       </li>
+    //     ))}
+    //   </ul>
+    // </div>
   );
 };
 

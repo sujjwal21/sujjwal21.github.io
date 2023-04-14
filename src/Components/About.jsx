@@ -21,7 +21,7 @@ const About = () => {
            >
             <p className="text-white  ">
               Hi, 𝑴𝒚𝒔𝒆𝒍𝒇 𝑼𝒋𝒋𝒘𝒂𝒍 𝑺𝒊𝒏𝒈𝒉 and I am a passionate Full Stack web
-              developer. I live in Lucknow, India. <span >I joined a coding boot camp and got hands-on experience on front-end and back-end tech stacks. And along with it,  <b className=" text-blue-400 animate-none md:animate-pulse z-0">I got 1200+ hours of coding experience, wrote 12000+ lines of code, 100+ hours of soft skill training, 300+ DSA Problems, and did 5+ Projects</b> including individual and collaborative.</span> 
+              developer. I live in Lucknow, India. <span >I joined a coding boot camp and got hands-on experience on front-end and back-end tech stacks. And along with it,  <b className=" text-blue-400 animate-none md:animate-pulse z-0">I got 1200+ hours of coding experience, wrote 12000+ lines of code, 100+ hours of soft skill training, 300+ DSA Problems, and did 5+ Projects</b> including individual and collaborative. </span> 
                I am constantly learning and
               striving to improve my skills to deliver the best solutions for my
               clients, with a strong foundation in front-end development.
@@ -37,7 +37,7 @@ const About = () => {
               <br />
 
             <p className="text-white">
-              Apart from coding, I'm also a movie enthusiast who watches to all
+              Apart from coding, I'm also a movie enthusiast who watches all
               genres of movies and a passionate traveler who loves to explore
               new places and learn about the people and culture of that places.
               
@@ -47,9 +47,9 @@ const About = () => {
            data-aos="fade-up"
            data-aos-duration="2000">
             <img
-              src="https://github.com/manojattri181/ManojAttri-Portfolio/blob/master/src/assets/working.gif?raw=true"
+              src="https://w0.peakpx.com/wallpaper/780/201/HD-wallpaper-motivation-coding-i-can-do-it-programing.jpg"
               alt="about"
-              className="hover:scale-110 duration-1000"
+              className="hover:scale-110 duration-1000 max-[800px]:hidden h-96"
             />
           </div>
         </div>
