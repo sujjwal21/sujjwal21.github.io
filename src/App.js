@@ -20,7 +20,7 @@ function App() {
       {ready!==true?<StartingIndicater/>:<div >
      <Navbar/>
       <Home/>
-     <SocialLinks/>
+     {<SocialLinks/>}
      <About/>
       <TechnicalSkills/>
       <Backend/>
