@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import About from "./Components/About";
 import Backend from "./Components/Backend";
 import Contact from "./Components/Contact";
@@ -15,12 +16,31 @@ import Top from "./Components/ToTop";
 
 function App() {
   const {ready}=useStart(1500)
+  const [shouldMount, setShouldMount] = useState(true);
+
+  useEffect(() => {
+    function handleScroll() {
+      const scrollPosition =140+ window.innerHeight + window.pageYOffset;
+      const documentHeight = document.body.offsetHeight;
+
+      if (scrollPosition >= documentHeight) {
+        setShouldMount(false);
+      }else{
+        setShouldMount(true)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div>
       {ready!==true?<StartingIndicater/>:<div >
      <Navbar/>
       <Home/>
-     {<SocialLinks/>}
+     {shouldMount && <SocialLinks/>}
      <About/>
       <TechnicalSkills/>
       <Backend/>
