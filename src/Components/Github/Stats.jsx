@@ -7,8 +7,8 @@ const Stats = () => {
                 <a href="https://github.com/sujjwal21">
                     <img 
                      src="https://github-readme-streak-stats.herokuapp.com?user=sujjwal21&theme=dark&border_radius=10" 
+
                      alt="github"
-                    
                      />
                 </a>
             </div>
@@ -17,15 +17,16 @@ const Stats = () => {
            
             >
                 <a href="https://github.com/sujjwal21" data-aos="flip-right" data-aos-duration="2500">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujjwal21&langs_count=8&theme=dark"
-                     alt="" 
-                     width={"360px"}
+                    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sujjwal21&theme=dark&layout=compact"
+                     alt="Top Languages" 
+                     width={"480px"}
                      />
+                    
                 </a>
                 <a href="https://github.com/sujjwal21" data-aos="flip-left" data-aos-duration="1500">
                     <img src="https://github-readme-stats.vercel.app/api?username=sujjwal21&show_icons=true&count_private=true&theme=dark"
-                     alt="" 
-                     width={"600px"}
+                     alt="GitHub Stats" 
+                     width={"500px"}
                      />   
                 </a>
             </div>

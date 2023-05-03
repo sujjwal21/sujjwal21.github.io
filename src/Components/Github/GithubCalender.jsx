@@ -31,9 +31,9 @@ const GithubCalender = () => {
       <div data-aos="zoom-in"  data-aos-duration="2000">
       
       <GitHubCalendar username="sujjwal21" style={{margin:"auto"}} transformData={""}
-       blockSize={17}
+       blockSize={19}
         fontSize={20}
-        blockMargin={7}
+        blockMargin={5}
          >
          <ReactTooltip delayShow={50} html  />
          </GitHubCalendar>
