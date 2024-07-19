@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="py-8">
           <p className="text-4xl font-bold  inline border-b-4 border-white text-white ">
-            Project
+            Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
