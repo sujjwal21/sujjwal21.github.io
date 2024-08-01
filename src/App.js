@@ -12,6 +12,7 @@ import StartingIndicater from "./Components/Start/StartingIndicater";
 import TechnicalSkills from "./Components/TechnicalSkills";
 import ToolsSection from "./Components/Tools";
 import Top from "./Components/ToTop";
+import Experience from "./Components/Experience";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
       <Home/>
      {shouldMount && <SocialLinks/>}
      <About/>
+     <Experience/>
       <TechnicalSkills/>
       <Backend/>
       <ToolsSection/>
