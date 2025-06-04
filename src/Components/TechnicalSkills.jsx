@@ -23,7 +23,7 @@ const TechinicalSkills = () => {
     },
     {
       id: 3,
-      src: "https://academyclass.com/wp-content/uploads/2021/10/Javascript.png",
+      src: "https://ih1.redbubble.net/image.2221346343.9025/raf,360x360,075,t,fafafa:ca443f4786.jpg",
       title: "JavaScript",
       style: "shadow-yellow-500",
       aos:"fade-right",
@@ -45,14 +45,14 @@ const TechinicalSkills = () => {
       aos:"fade-right",
       animation:"hover:animate-bounce "
     },
-    // {
-    //   id: 6,
-    //   src: nextjs,
-    //   title: "Next JS",
-    //   style: "shadow-white",
-    //   aos:"flip-right",
-    //   animation:"hover:animate-bounce "
-    // },
+    {
+      id: 6,
+      src: 'https://www.svgrepo.com/show/354113/nextjs-icon.svg',
+      title: "Next JS",
+      style: "shadow-white",
+      aos:"flip-right",
+      animation:"hover:animate-bounce "
+    },
     {
       id: 7,
       src: "https://chiranjeev-thapliyal.vercel.app/svg/redux.svg",
@@ -63,7 +63,7 @@ const TechinicalSkills = () => {
     },
     {
       id: 10,
-      src: "https://ik.imagekit.io/laracasts/series/thumbnails/typescript-for-beginners.png?tr=w-432",
+      src: "https://www.svgrepo.com/show/306891/typescript.svg",
       title: "TypeScript",
       style: "shadow-blue-400 ",
       aos:"flip-right",
@@ -81,6 +81,14 @@ const TechinicalSkills = () => {
       id: 14,
       src: "https://manojattri.vercel.app/static/media/chakra.e4cb472ccaabf22affba.png",
       title: "Chakra UI",
+      style: "shadow-blue-400 ",
+      aos:"flip-right",
+      animation:"hover:animate-bounce "
+    },
+    {
+      id: 15,
+      src: "https://static-00.iconduck.com/assets.00/material-ui-icon-2048x1626-on580ia9.png",
+      title: "Material UI",
       style: "shadow-blue-400 ",
       aos:"flip-right",
       animation:"hover:animate-bounce "
