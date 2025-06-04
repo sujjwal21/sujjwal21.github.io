@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c72eb20c.css",
-    "main.js": "/static/js/main.ba51996c.js",
+    "main.js": "/static/js/main.47458e7e.js",
     "static/media/Trends (1).gif": "/static/media/Trends (1).89971895fa64ca619363.gif",
     "static/media/portfolio_26_gif (1).gif": "/static/media/portfolio_26_gif (1).4b20f71ea6587fef3c9a.gif",
     "static/media/body_care_gif (2).gif": "/static/media/body_care_gif (2).b80dfaa339f1bd178ea6.gif",
@@ -15,10 +15,10 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "index.html": "/index.html",
     "main.c72eb20c.css.map": "/static/css/main.c72eb20c.css.map",
-    "main.ba51996c.js.map": "/static/js/main.ba51996c.js.map"
+    "main.47458e7e.js.map": "/static/js/main.47458e7e.js.map"
   },
   "entrypoints": [
     "static/css/main.c72eb20c.css",
-    "static/js/main.ba51996c.js"
+    "static/js/main.47458e7e.js"
   ]
 }
