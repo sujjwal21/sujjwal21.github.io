@@ -15,29 +15,42 @@ const Home = () => {
           style={{ marginTop: "50px" }}
           className="flex flex-col justify-center h-full "
           data-aos="fade-right"
-           data-aos-duration="2000"
+          data-aos-duration="2000"
         >
           <h2 className="text-3xl  sm:text-5xl font-bold text-white my-12">
-            I'm <br/><span className=" text-blue-500 animate-none md:animate-pulse z-0 ">Ujjwal Singh</span><br/> Full Stack
+            I'm <br />
+            <span className=" text-blue-500 animate-none md:animate-pulse z-0 ">
+              Ujjwal Singh
+            </span>
+            <br /> Full Stack
             <Typewriter
               options={{
-                strings: ["Web Developer", "Web Developer"],
+                strings: ["Web Developer", "Problem Solver"],
                 autoStart: true,
                 loop: true,
               }}
             />
           </h2>
-          <p className=" text-white pb-4 max-w-md">
-          Analytical and detail-oriented aspiring Full Stack Developer.
-            Capable of writing production-ready code using ReactJS, Redux, and
-            CSS on the front end, NodeJS, and Express on the back end to build
-            single-page applications. Passionate about coding and intensely
-            interested in working in a product-based company.
+          <p className="text-white pb-4 max-w-md">
+            Analytical and detail-oriented Full Stack Developer with a proven
+            ability to build responsive, high-performance single-page
+            applications. Skilled in developing production-ready solutions using{" "}
+            <strong>Next.js</strong>,<strong> React.js</strong>,{" "}
+            <strong>TypeScript</strong>,<strong> Redux</strong>, and{" "}
+            <strong>CSS</strong> on the front end, and
+            <strong> Node.js</strong> with <strong>Express.js</strong> on the
+            back end. Passionate about crafting scalable products and
+            contributing to innovative product-based companies.
           </p>
 
           <div>
-            <a href={"/fw21_1014-Ujjwal-Singh-Resume.pdf"} target="_blank" rel="noopener noreferrer" download 
-            onClick={()=>window.open("/fw21_1014-Ujjwal-Singh-Resume.pdf")}>
+            <a
+              href={"/fw21_1014-Ujjwal-Singh-Resume.pdf"}
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              onClick={() => window.open("/fw21_1014-Ujjwal-Singh-Resume.pdf")}
+            >
               <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[#0e0c49]  to-[#0e0a7a] cursor-pointer ">
                 Resume
                 <span className="group-hover:rotate-90 duration-1000 ml-3">

@@ -25,16 +25,17 @@ const Experience = () => {
             </h3>
 
             <h6 className="text-sm font-semibold dark:text-white">
-              Zeply - Product-Based Company
+              Wisdom Tree Ventures (Zeply) – Product-Based Company
             </h6>
 
             <p className="text-base font-normal text-gray-50 dark:text-gray-400 mt-2">
-              At Zeply, a dynamic food delivery platform, I work as a Frontend
-              Developer focusing on crafting highly interactive and
-              user-friendly experiences using Next.js and Tailwind CSS. My
-              responsibilities include developing and maintaining the dine-in
-              section for both users and admins, ensuring seamless interactions
-              and a consistent design system across all pages.
+              At Wisdom Tree Ventures (Zeply), a dynamic food delivery platform,
+              I work as a Frontend Developer focusing on crafting highly
+              interactive and user-friendly experiences using Next.js and
+              Tailwind CSS. My responsibilities include developing and
+              maintaining the dine-in section for both users and admins,
+              ensuring seamless interactions and a consistent design system
+              across all pages.
             </p>
 
             <p className="text-base font-normal text-gray-50 dark:text-gray-400 mt-2">
