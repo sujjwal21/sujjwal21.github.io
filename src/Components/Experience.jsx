@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="h-auto w-screen bg-gradient-to-b from-[#0e0c49] via-[#3d3a81] to-[#0e0c49] text-white"
+      className="h-auto w-screen bg-gradient-to-b from-[#0e0c49] via-[#221d7e] to-[#0e0c49] text-white"
     >
       <div className="p-4 max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-20">
@@ -13,6 +13,82 @@ const Experience = () => {
           </p>
         </div>
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <li className="mb-10 ml-4">
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+
+            <time className="mb-1 text-sm font-normal leading-none text-gray-50 dark:text-gray-500">
+              September 2025 - Present
+            </time>
+
+            <h3 className="text-lg font-semibold dark:text-white">
+              Software Engineer
+            </h3>
+
+            <h6 className="text-sm font-semibold dark:text-white">
+              Subtlelabs – (Product+Service)-Based Company
+            </h6>
+
+            <p className="text-base font-normal text-gray-50 dark:text-gray-400 mt-2">
+              At Subtlelabs, I work as a Software Engineer primarily focused on
+              backend development using Django. My role involves designing and
+              building scalable backend services that process and manage large
+              volumes of data from multiple third-party POS platforms such as
+              Shopify, Lightspeed, Shyfter, and Shipday. I focus on creating
+              efficient data pipelines and ensuring seamless data flow between
+              external systems and internal applications.
+            </p>
+
+            <p className="text-base font-normal text-gray-50 dark:text-gray-400 mt-2">
+              Alongside backend development, I contribute to frontend analytics
+              by developing dynamic dashboards using AG Grid and AG Charts,
+              enabling better data visualization and decision-making. I am also
+              working on a cross-platform mobile application using React Native,
+              building features like authentication, job listings, and user
+              management for a workforce management platform.
+            </p>
+
+            <p className="text-base font-normal text-gray-50 dark:text-gray-400 mt-4">
+              <b>Key Contributions & Qualities:</b>
+            </p>
+
+            <ul className="list-disc list-inside text-gray-50 dark:text-gray-400">
+              <li>
+                Designed and developed scalable backend services using Django
+                and REST APIs.
+              </li>
+              <li>
+                Integrated multiple third-party POS APIs (Shopify, Lightspeed,
+                Shyfter, Shipday) and mapped external data to internal data
+                models.
+              </li>
+              <li>
+                Implemented role-based authentication and authorization for
+                secure access control.
+              </li>
+              <li>
+                Built dynamic and high-performance data tables using AG Grid.
+              </li>
+              <li>
+                Developed interactive analytics dashboards using AG Charts.
+              </li>
+              <li>
+                Optimized backend performance for handling large-scale data
+                processing.
+              </li>
+              <li>
+                Contributed to cross-platform mobile development using React
+                Native for Android and iOS.
+              </li>
+              <li>
+                Worked with Android Studio and Xcode for building and testing
+                mobile applications.
+              </li>
+              <li>
+                Collaborated with cross-functional teams in an Agile environment
+                for feature delivery.
+              </li>
+            </ul>
+          </li>
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 

@@ -57,11 +57,11 @@ const Navbar = () => {
         ))}
         <li className="px-4 capitalize font-medium  hover:scale-105 duration-200 cursor-pointer border-[#0e0c49] hover:border-blue-600 border-b-2">
           <a
-            href={"/fw21_1014-Ujjwal-Singh-Resume.pdf"}
+            href={"/Ujjwal-Singh-Resume.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             download
-            onClick={() => window.open("/fw21_1014-Ujjwal-Singh-Resume.pdf")}
+            onClick={() => window.open("/Ujjwal-Singh-Resume.pdf")}
           >
             Resume
           </a>
